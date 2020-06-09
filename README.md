@@ -39,7 +39,7 @@ Script := 'Scripts\IGDWNLDR.exe -l ' + AResource + ' -x ' + FType;
 ShellExecute(Application.Handle, 'open', 'cmd', PChar('/c ' + Script), Nil, SW_HIDE);
 ```
 
-*.py
+* .py
 ```pascal
 Script := 'Scripts\IGDWNLDR.py -l ' + AResource + ' -x ' + FType;
 ShellExecute(Application.Handle, 'open', 'cmd', PChar('/c ' + Script), Nil, SW_HIDE);
