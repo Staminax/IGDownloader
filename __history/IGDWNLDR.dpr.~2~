@@ -1,0 +1,14 @@
+program IGDWNLDR;
+
+uses
+  Vcl.Forms,
+  uDownload in 'uDownload.pas' {F_Download};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TF_Download, F_Download);
+  Application.Run;
+end.
