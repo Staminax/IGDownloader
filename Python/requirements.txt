@@ -6,7 +6,7 @@ chardet==3.0.4
 colorama==0.4.1
 config==0.4.2
 cycler==0.10.0
-Django==2.2.7
+Django==2.2.13
 django-ckeditor==5.8.0
 django-js-asset==1.2.2
 et-xmlfile==1.0.1
