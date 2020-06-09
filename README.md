@@ -8,11 +8,12 @@ This project mixes a simple python script with an even simpler and intuitive GUI
 
 ## Installing
 
-Make sure to install all the requirements for the Python Script, located in the /Python folder.
+Make sure to install bs4
 
 ```python
-pip install -r requirements.txt
+pip install beautifulsoup4
 ```
+
 
 you can also generate the .exe file for the Python script so you can share with your friends that doesn't have Python on their computers!
 
